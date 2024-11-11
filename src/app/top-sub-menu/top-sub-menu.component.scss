@@ -1,6 +1,23 @@
 .container
 {
-    height: 50px;
+    padding-top: 1px;
     width: 100%;
-    background-color: black;
+    background-color: lightgrey;
+    position: fixed;
+}
+p
+{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+.textField
+{
+    height: 24px;
+    margin-top: 3px;
+    margin-left: 3px;
 }

@@ -4,7 +4,7 @@ import { PermissionsRequestsComponent } from './permissions-requests/permissions
 import { AdministrationComponent } from './administration/administration.component';
 
 export const routes: Routes = [
-    {path: '', redirectTo: '/', pathMatch: 'full'},
+    {path: '', redirectTo: '/workers', pathMatch: 'full'},
     {path: 'workers', component: WorkersComponent},
     {path: 'permissionsRequests', component: PermissionsRequestsComponent},
     {path: 'administration', component: AdministrationComponent}
