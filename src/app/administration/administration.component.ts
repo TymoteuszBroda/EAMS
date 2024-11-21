@@ -4,7 +4,7 @@ import { TopSubMenuComponent } from '../top-sub-menu/top-sub-menu.component';
 @Component({
   selector: 'app-administration',
   standalone: true,
-  imports: [TopSubMenuComponent],
+  imports: [],
   templateUrl: './administration.component.html',
   styleUrl: './administration.component.scss'
 })
